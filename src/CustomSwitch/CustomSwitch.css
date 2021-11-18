@@ -1,10 +1,10 @@
 .switch-label {
   display: flex;
   align-items: center;
-  background: grey;
+  background: rgb(149, 207, 246);
   width: 100px;
   height: 50px;
-  border-radius: 100px;
+  border-radius: 10px;
   position: relative;
   cursor: pointer;
 }
@@ -13,7 +13,7 @@
   background-color: white;
   width: 45px;
   height: 45px;
-  border-radius: 50%;
+  border-radius: 9px;
   position: absolute;
   transition: 0.2s;
   left: 2px;

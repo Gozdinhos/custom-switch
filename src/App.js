@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="app">
       <CustomSwitch
-        onColor={"rgba(41, 241, 195, 1)"}
-        offColor={"rgba(236, 100, 75, 1)"}
+        onColor={"rgba(150, 54, 148, 1)"}
+        offColor={"rgba(174, 168, 211, 1 )"}
         isChecked={checked}
         handleSwitch={() => setChecked(!checked)}
       />
@@ -17,3 +17,5 @@ function App() {
 }
 
 export default App;
+
+

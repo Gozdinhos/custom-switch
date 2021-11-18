@@ -1,7 +1,7 @@
 import React from 'react'
 import './CustomSwitch.css'
 
-const CustomSwitch = ({ isChecked, handleSwitch, onColor = 'rgba(41, 241, 195, 1)', offColor }) => {
+const CustomSwitch = ({ isChecked, handleSwitch, onColor = 'rgba(150, 54, 148, 1)', offColor }) => {
     return (
         <div>
             <input
@@ -25,6 +25,9 @@ const CustomSwitch = ({ isChecked, handleSwitch, onColor = 'rgba(41, 241, 195, 1
 }
 
 export default CustomSwitch
+
+
+
 
 
 
